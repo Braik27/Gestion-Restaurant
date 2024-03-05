@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/16" prefHeight="400.0" prefWidth="600.0" fx:controller="Controller.RestaurantInfo">
+    <TableView fx:id="tableViewProduits">
+        <columns>
+            <TableColumn text="Nom" fx:id="columnNom" />
+            <TableColumn text="Type" fx:id="columnType" />
+            <TableColumn text="Adresse" fx:id="columnAdresse" />
+
+            <!-- Nouvelle colonne pour afficher les images -->
+            <TableColumn text="Image" fx:id="columnImage" />
+        </columns>
+    </TableView>
+</AnchorPane>
